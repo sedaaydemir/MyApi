@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi.EntityLayer", "MyApi.EntityLayer\MyApi.EntityLayer.csproj", "{432A9538-37D7-4C8A-B501-38E4C5F1D093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApi.DataAccessLayer", "MyApi.DataAccessLayer\MyApi.DataAccessLayer.csproj", "{D56B4564-373D-40DC-A63C-79D0C3501EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432A9538-37D7-4C8A-B501-38E4C5F1D093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432A9538-37D7-4C8A-B501-38E4C5F1D093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432A9538-37D7-4C8A-B501-38E4C5F1D093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432A9538-37D7-4C8A-B501-38E4C5F1D093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56B4564-373D-40DC-A63C-79D0C3501EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56B4564-373D-40DC-A63C-79D0C3501EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56B4564-373D-40DC-A63C-79D0C3501EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56B4564-373D-40DC-A63C-79D0C3501EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79038315-3A0A-473E-9210-7A06C378D4FA}
+	EndGlobalSection
+EndGlobal
