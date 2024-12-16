@@ -1,0 +1,10 @@
+﻿@model List<MyApi.WebUI.Dtos.ResultCategoryDto>
+
+@{
+    Layout = null;
+}
+
+<@foreach(var item in Model)
+{
+    <p>@item.CategoryName</p>
+}
