@@ -9,5 +9,6 @@ namespace MyApi.DataAccessLayer.Abstract
 {
     public interface IProductDal:IGenericDal<Product>
     {
+        int GetProductCount();
     }
 }

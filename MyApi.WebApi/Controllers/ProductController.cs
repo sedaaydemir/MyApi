@@ -47,5 +47,10 @@ namespace MyApi.WebApi.Controllers
             _productService.TUpdate(product);
             return Ok("Güncelleme Başarılı");
         }
+        [HttpGet("ProductCount")]
+        public IActionResult ProductCount(int id)
+        {
+            return Ok(_productService.TGetProductCount());
+        }
     }
 }
